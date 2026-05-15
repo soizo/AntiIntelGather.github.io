@@ -1,27 +1,31 @@
-# 橫書轉直書
+# 横書轉直書
 
-A browser-based utility for converting horizontal Chinese text (橫書) to vertical text (直書), and back again. Forked and substantially rewritten from [AntiIntelGather/AntiIntelGather.github.io](https://github.com/AntiIntelGather/AntiIntelGather.github.io).
+A browser-based utility for converting horizontal Chinese text (横書) to vertical text (直書), and back again. Forked and substantially rewritten from [AntiIntelGather/AntiIntelGather.github.io](https://github.com/AntiIntelGather/AntiIntelGather.github.io).
 
 ## Example
 
-Input (橫書):
+Input (横書):
 
 ```
 春眠不覺曉，處處聞啼鳥。
 夜來風雨聲，花落知多少。
 ```
 
-Output (直書, 5 characters per column):
+Output (直書):
 
 ```
-聲少夜鳥曉春
-，。來，，眠
-花花風處不不
-落落雨處覺覺
-知知聲聞啼，
-多多，啼。處
-少。花鳥　處
-　　落　　聞
+夜春
+來眠
+風不
+雨覺
+聲曉
+︐︐
+花處
+落處
+知聞
+多啼
+少鳥
+︒︒
 ```
 
 ## Features
@@ -40,10 +44,10 @@ Output (直書, 5 characters per column):
 Open `index.html` in any modern browser. No build step, no server, no dependencies.
 
 1. Paste or type text into the input area. Each line break creates a new column group.
-2. Choose a direction: 橫→直 or 直→橫.
+2. Choose a direction: 横→直 or 直→横.
 3. If converting to vertical, choose a splitting mode and set the character count or column count.
 4. Toggle options as needed.
-5. Click **轉換** or enable live update to see the result immediately.
+5. Click **轉换** or enable live update to see the result immediately.
 6. Click **複製結果** to copy the output.
 
 ## Options
